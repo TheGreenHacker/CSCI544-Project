@@ -1,7 +1,7 @@
 import pandas as pd
 import torch
 from transformers import AutoTokenizer, AutoModelWithLMHead
-filename ='final_data.csv'
+filename ='data/final_data.csv'
 df = pd.read_csv(filename)
 print(df.shape)
 print(df.head())
