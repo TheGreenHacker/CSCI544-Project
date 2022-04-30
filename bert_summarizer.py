@@ -9,7 +9,7 @@ MAX_LENGTH = 120
 
 reviews = []
 topics = []
-with open('final_data.csv', encoding='utf-8') as f:
+with open('data/final_data.csv', encoding='utf-8') as f:
 	csvreader = csv.reader(f)
 	next(csvreader)
 	for x in csvreader:

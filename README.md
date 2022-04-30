@@ -12,4 +12,5 @@ This repository contains all the code required for the project by Team Tokens. T
 <li>Data_Preprocessing.py: Code to create a balanced dataset with a threshold for length of reviews. </li>
 <li>bart_summarizer.py: BART summarizer</li>
 <li>t5summarygeneration.py: T5 summarizer</li>
+<li>bert_summarizer.py: BERT summarizer</li>
 <li> Classifier.ipynb : notebook for the classification part of the project </li>
